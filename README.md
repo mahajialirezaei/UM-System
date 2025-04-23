@@ -76,7 +76,7 @@ src/
 - `public void addUser(AbstractUser user)`
 - `public List<AbstractUser> getAllUsers()`
 - `public AbstractUser findUserByEmail(String email)`
-- (در صورت نیاز: حذف یا به‌روزرسانی کاربر)
+
 
 ---
 
