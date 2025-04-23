@@ -4,6 +4,7 @@ public abstract class AbstractUser {
     private String lastName;
     private String email;
     private String password;
+
     public AbstractUser(String firstName, String lastName, String email, String password){
         this.firstName = firstName;
         this.lastName = lastName;

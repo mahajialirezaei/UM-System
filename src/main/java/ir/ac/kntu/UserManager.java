@@ -4,14 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserManager {
-    private List<AbstractUser> users = new ArrayList<AbstractUser>();
+
+    private ArrayList<AbstractUser> users = new ArrayList<AbstractUser>();
 
     public void addUser(AbstractUser user){
         users.add(user);
     }
-    public List<AbstractUser> getAllUsers(){
+
+    public ArrayList<AbstractUser> getAllUsers(){
         return users;
     }
+
     public AbstractUser findUserByEmail(String email){
         for(AbstractUser user : users){
             if(user.getEmail().equals(email)){
@@ -25,7 +28,7 @@ public class UserManager {
         return users;
     }
 
-    public void setUsers(List<AbstractUser> users) {
+    public void setUsers(ArrayList<AbstractUser> users) {
         this.users = users;
     }
 }
