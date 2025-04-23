@@ -1,5 +1,5 @@
 # UM-System
-حتماً! در ادامه نسخهٔ فارسی فایل `README.md` برای این پروژه آورده شده:
+
 
 ```markdown
 # سیستم مدیریت کاربران با جاوا (Abstraction و Encapsulation)
