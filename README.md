@@ -2,7 +2,6 @@
 
 
 
-# سیستم مدیریت کاربران با جاوا (Abstraction و Encapsulation)
 
 ##  توضیحات
 
