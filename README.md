@@ -3,7 +3,7 @@
 
 
 
-## 🧾 توضیحات کلی
+##  توضیحات کلی
 
 
 ### در این پروژه:
@@ -19,12 +19,13 @@
 
 ```
 src/
-├── models/
+├── ir.ac.kntu/
+│   ├──Main.java
 │   ├── AbstractUser.java
 │   ├── Admin.java
 │   ├── NormalUser.java
 │   └── UserManager.java
-├── Main.java
+
 ```
 
 ###  AbstractUser.java
